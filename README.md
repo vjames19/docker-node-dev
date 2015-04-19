@@ -10,4 +10,4 @@ This docker image should be run using volumes instead of copying the src into th
 file watching between the container and the host.
 
 ## Running the container
-docker run -it -p 3000:3000 -v `pwd`:/home/node/app vjames19/docker-node-env
+```docker run -it -p 3000:3000 -v `pwd`:/home/node/app vjames19/docker-node-dev```
